@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/font/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@theme {
+    --font-inter: "Inter", sans-serif;
+}
+
+@layer utility {
+    .shadow-custom {
+        box-shadow: 0 4px 40px rgb(0, 0, 0, .1);
+    }
+    .container-div{
+        background: linear-gradient(to right, #F76680 0%, #57007B 100%);
+        width: 69px;
+        height: 5px;
+        margin-bottom: 20px;
+    }
+}
